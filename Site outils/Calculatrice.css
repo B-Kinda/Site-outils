@@ -1,0 +1,15 @@
+:root {
+  --primary: #c7eae4;
+  --secondary: #a7e8bd;
+  --button: #fcbcb8;
+  --background: #efa7a7;
+  --yellow: #ffd972;
+}
+body {
+  background-color: var(--background);
+}
+a {
+  font-size: 4rem;
+  text-decoration: none;
+  color: var(--primary);
+}
