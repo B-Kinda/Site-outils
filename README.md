@@ -1,2 +1,2 @@
-# Site-outils
-Compilation des sites effectués pour m'exercer au html, css et js 
+# Site outils
+Compilation des designs front réalisés pour m'entraîner
