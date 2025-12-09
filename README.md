@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🧪 Laboratoire d'Expérimentation Web
 
 Ce dépôt est mon espace de travail personnel pour expérimenter, tester et développer divers outils et fonctionnalités web. C'est un laboratoire où j'explore différentes technologies et techniques de développement.
@@ -33,3 +34,7 @@ Chaque dossier contient un projet indépendant. Ouvrez simplement le fichier `in
 
 Ce déposit est en constante évolution au fur et à mesure de mes expérimentations. N'hésitez pas à explorer le code source et à me faire part de vos retours !
 Compilation des sites effectués pour m'exercer au html, css et js 
+=======
+# Site outils
+Compilation des designs front réalisés pour m'entraîner
+>>>>>>> 348727d6b1ea3a0cfd418d6910c7aa071e641252
