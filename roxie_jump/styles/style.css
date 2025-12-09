@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    background: #0a0e27;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+
+canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#ui {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #00d4ff;
+    font-size: 24px;
+    font-weight: bold;
+    z-index: 10;
+}
+
+#gameOverScreen {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(10, 14, 39, 0.95);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid #00d4ff;
+    z-index: 20;
+}
+
+#gameOverScreen h1 {
+    color: #ff006e;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+#gameOverScreen p {
+    color: #00d4ff;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#gameOverScreen button {
+    background: #00d4ff;
+    color: #050a15;
+    border: none;
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#gameOverScreen button:hover {
+    background: #ff006e;
+}
