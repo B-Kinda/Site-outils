@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Roxies Jump - 3D Game</title>
+        <script type="importmap">
+            {
+                "imports": {
+                    "three": "https://cdn.jsdelivr.net/npm/three@<version>/build/three.module.js",
+                    "three/addons/": "https://cdn.jsdelivr.net/npm/three@<version>/examples/jsm/"
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <canvas id="gameCanvas"></canvas>
+        <div id="ui">
+            <div id="score">Score: 0</div>
+            <div id="gameOverScreen" style="display: none">
+                <h1>Game Over!</h1>
+                <p id="finalScore">Score: 0</p>
+                <button onclick="location.reload()">Rejouer</button>
+            </div>
+        </div>
+    </body>
+</html>
